@@ -40,7 +40,7 @@ module.exports.run = async function({ api, event, args }) {
 			var callback = () =>
 				api.sendMessage(
 					{
-						body: `🔧 GC Name: ${threadName}\n🔧 Group ID: ${id}\n🔧 Approval: ${pd}\n🔧 Emoji: ${icon}\n🔧 Information: including ${threadMem} members\n🔧 Number of males: ${nam} members\n🔧 Number of females: ${nu} members\n🔧 With ${qtv} administrators\n🔧 Total number of messages: ${sl} msgs.\n\n💝 𝐌𝐚𝐝𝐞 𝐛𝐲 𝐀𝐀𝐑𝐘𝐀𝐍 𝐒𝐇𝐀𝐑𝐀𝐁𝐈🩷🪽`,
+						body: `🔧 GC Name: ${threadName}\n🔧 Group ID: ${id}\n🔧 Approval: ${pd}\n🔧 Emoji: ${icon}\n🔧 Information: including ${threadMem} members\n🔧 Number of males: ${nam} members\n🔧 Number of females: ${nu} members\n🔧 With ${qtv} administrators\n🔧 Total number of messages: ${sl} msgs.\n\n💝 𝐌𝐚𝐝𝐞 𝐛𝐲 𝐃𝐄𝐕𝐈𝐋 𝐒𝐇𝐀𝐑𝐀𝐁𝐈🩷🪽`,
 						attachment: fs.createReadStream(__dirname + '/cache/1.png')
 					},
 					event.threadID,
