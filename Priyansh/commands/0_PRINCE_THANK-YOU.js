@@ -3,7 +3,7 @@ module.exports.config = {
         name: "WELCOMe",
     version: "1.0.1",
         hasPermssion: 0,
-        credits: "AADI BABU", 
+        credits: "PRINCE", 
         description: "hihihihi",
         commandCategory: "no prefix",
         usages: "Welcome",
@@ -14,7 +14,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         var { threadID, messageID } = event;
         if (event.body.indexOf("welcome")==0 || event.body.indexOf("WELCOME")==0 || event.body.indexOf("Welcome")==0 || event.body.indexOf("स्वागत")==0) {
                 var msg = {
-                                body: "=𝐎𝐰𝐧𝐞𝐫 ➻  𝐊𝐇𝐀𝐍  𝐒𝐀𝐇𝐀𝐁 \n__________________________________\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n__________________________________ ",
+                                body: "=𝐎𝐰𝐧𝐞𝐫 ➻ 💖 𝐃𝐄𝐕𝐈𝐋 𝐒𝐇𝐀𝐑𝐀𝐁𝐈\n__________________________________\n\n🙋  🅃🄷🄰🄽🄺  🅈🄾🅄  🙋\n__________________________________ ",
                                 attachment: fs.createReadStream(__dirname + `/noprefix/d08cfbbacd25670c448ac105504c840c.gif`)
                         }
                         api.sendMessage(msg, threadID, messageID);
